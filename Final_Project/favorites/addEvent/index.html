@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Salsa Dance Network Add Event</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../../final.css" media="screen">
+  <link rel="stylesheet" href="../../finalPrint.css" media="print">
+</head>
+<body>
+  <div id="wrapper">
+    <header>
+      <h1>Salsa Dance Network</h1>
+      <blockquote>"While I'm Here, Where Can I Dance?"</blockquote>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="../../index.html">HOME</a></li>
+	<li><a href="../../2016tour/index.html">2016 TOUR</a></li>
+	<li><a href="../index.html">FAVORITES</a></li>
+	<li><a href="index.html">ADD EVENT</a></li>
+	<li><a href="../../cities/index.html">CITIES</a></li>
+	<li><a href="../../contact/index.html">CONTACT</a></li>	
+      </ul>
+    </nav>
+    <main>
+       <div id="music">
+	<audio controls="controls" autoplay="autoplay" title="Ven Devorame Otra Vez">
+	  <source src="../../audio/devorame.mp3" type="audio/mpeg"> 
+	  <source src="../../audio/devorame.ogg" type="audio/ogg">
+	    <script>
+              var audio = document.currentScript.parentElement;
+              audio.volume = 0.2;
+            </script> 
+	 </audio>
+        </div>
+      <h2>Add an Event to Share With the Salsa Community</h2>
+        <p>If you know of an upcoming event or you want to share with us your favorite past 
+	salsa event, please fill out and submit this form.</p>
+      <form name="eventForm" method="post" id="eventForm" action="http://webdevbasics.net/scripts/demo.php">
+        <label for="eName">Event Name:</label>
+	  <input type="text" name="eName" id="eName"><br>
+	<label for="city">City:</label>
+	  <input type="text" name="city" id="city" required="required"><br>
+	<label for="state">State:</label>
+	  <input type="text" name="state" id="state" required="required"><br>
+	<label for="venue">Venue:</label>
+	  <input type="text" name="venue" id="venue" required="required"><br>
+	<label for="date">Date:</label>
+	  <input type="text" name="date" id="date"><br>
+	<label for="time">Time:</label>
+	  <input type="text" name="time" id="time"><br>
+	<fieldset>
+	  <legend>Event Type</legend>
+	  <select size="1" name="eTypeList" id="eTypeList">
+	    <option>Select Event Type</option>
+	    <option value="Special Event">Special Event</option>
+	    <option value="Weekly">Weekly</option>
+	    <option value="Yearly">Yearly</option>
+	    <option value="Other">Other</option>
+	  </select>
+	</fieldset><br>
+	<fieldset>
+	  <legend>Day of Week</legend>
+	  <select size="1" name="dayList" id="dayList">
+	    <option>Select Which Day</option>
+	    <option value="Sunday">Sunday</option>
+	    <option value="Monday">Monday</option>
+	    <option value="Tuesday">Tuesday</option>
+	    <option value="Wednesday">Wednesday</option>
+	    <option value="Thursday">Thursday</option>
+	    <option value="Friday">Friday</option>
+	    <option value="Saturday">Saturday</option>
+	  </select>
+	</fieldset><br>
+	Cost?<br>
+	  <input type="radio" name="cost" value="Yes" id="costYes"> Yes<br>
+	  <input type="radio" name="cost" value="No" id="costNo"> No<br>
+	Live Music?<br>
+	  <input type="radio" name="music" value="Yes" id="musicYes"> Yes<br>
+	  <input type="radio" name="music" value="No" id="musicNo"> No<br>
+	<label for="email">Your E-mail:</label>
+	  <input type="text" name="email" id="email"><br>
+	<label for="comments">Additional Info:</label><br>
+          <textarea name="comments" id="comments" rows="4" cols="20"></textarea><br>
+	<input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+      </form>
+    </main>
+    <footer>
+      <small><i>Copyright&copy; 2016 LEILANI RAY</i></small>
+    </footer>
+  </div>
+</body>
+</html>

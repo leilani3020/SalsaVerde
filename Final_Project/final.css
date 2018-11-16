@@ -1,0 +1,67 @@
+#wrapper { margin-right:auto; margin-left:auto;
+	   width:80%; min-width:700px; min-height:500px;
+ 	   background-color:#B0E0E6;
+	   border-radius:10px;
+	   padding:10px;
+	   font-family:verdana, Arial, sans-serif;}
+
+header { padding-left:72px;
+         padding-top:25px; padding-bottom:25px;
+	 border-radius:10px; 
+	 border:1px black solid;
+	 background-color:#00008B;
+	 background-image: url(images/salsa4.jpg);
+	 background:url(images/salsa3.JPG);
+	 background-size:contain; 
+	 opacity:0.4; 
+	 color:white; }
+
+ul li { list-style-type:none; }
+
+nav { color:#B0E0E6;
+      font-weight:bold;
+      font-size:1.3em; 
+      float:left;
+      width:200px; }
+
+nav a { background-color:#CC0000; 
+	padding:1px; 
+	border-radius:45px;
+	color:#B0E0E6;
+	}
+
+a:link { color:#B0E0E6; }
+
+a:hover { color:#66FF66; }
+
+main { margin-left:210px; }
+
+#music { float:right; }
+
+table, td, th { border: 1px solid #CC0000; }
+
+caption { color:#CC0000; }
+
+table { text-align:left;
+	padding:20px; }
+
+td, th { padding:7px; }
+
+#salsaVideo { float:right; }
+
+ol { list-style-image:URL(images/palmtreeSmall.jpg); }
+
+footer { text-align:center; }
+
+form { background-color:#CC0000;
+       border:3px solid #000000;
+       width:400px; padding:20px; }
+
+label { float:left; clear:left; width:110px; margin-top:10px; text-align:right; }
+
+input { margin-top:10px; }
+
+textarea { margin-top:10px; }
+
+fieldset { width:90%;
+  	   text-align:left; }
